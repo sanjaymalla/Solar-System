@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6685902416423146333}
   - component: {fileID: 9202591465758282959}
   - component: {fileID: 5900703096413625004}
-  - component: {fileID: 441054955613986416}
+  - component: {fileID: 2891885780711191163}
   m_Layer: 0
   m_Name: Asteroid2
   m_TagString: Untagged
@@ -109,7 +109,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &441054955613986416
+--- !u!114 &2891885780711191163
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -118,8 +118,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 3859802525047010016}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3954d94017b8844fb44609f0030dd42, type: 3}
+  m_Script: {fileID: 11500000, guid: add6e2ebb3c598140ad6bfb4346dfd71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sun: {fileID: 0}
-  revolutionSpeed: 10
+  target: {fileID: 207048525331934876}
+  speed: 0.2
